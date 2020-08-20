@@ -1,0 +1,21 @@
+.c-column-title {
+  margin-bottom: 30px;
+}
+
+
+.c-column-title__h2 {
+  margin: 0px;
+
+  font-family: 'Gilroy', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.c-column-title__break {
+  width: 50px;
+  height: 1px;
+  margin-top: 9px;
+  background-color: $main;
+}

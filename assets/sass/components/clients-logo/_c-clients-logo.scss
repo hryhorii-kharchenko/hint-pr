@@ -1,0 +1,146 @@
+.c-clients-logo {
+  position: relative;
+}
+
+.c-clients-logo_brand_thatsliving {
+  top: 18px;
+}
+
+.c-clients-logo_brand_spencerstuart {
+  top: 5px;
+}
+
+.c-clients-logo_brand_fluke {
+  top: -6px;
+  right: -4px;
+}
+
+.c-clients-logo_brand_proektoria {
+  top: 5px;
+}
+
+.c-clients-logo_brand_doubletree {
+  top: 5px;
+}
+
+.c-clients-logo_brand_pantone {
+  right: -4px;
+}
+
+.c-clients-logo__img {
+  margin: 0 auto;
+}
+
+.c-clients-logo__img {
+  opacity: 1;
+
+  transition: opacity 0.3s;
+}
+
+.c-clients-logo__img_active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+
+  transition: opacity 0.2s;
+}
+
+.c-clients-logo:hover .c-clients-logo__img {
+  opacity: 0;
+}
+
+.c-clients-logo:hover .c-clients-logo__img_active {
+  opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .c-clients-logo {
+    width: 100%;
+  }
+
+  .c-clients-logo_brand_hilton {
+    max-width: 75px;
+  }
+
+  .c-clients-logo_brand_spencerstuart {
+    top: 0px;
+  }
+
+  .c-clients-logo_brand_doubletree {
+    top: 16px;
+  }
+
+  .c-clients-logo_brand_fluke {
+    top: -10px;
+    right: -2px;
+  }
+
+  .c-clients-logo_brand_istochnik {
+    max-width: 75px;
+    top: 14px;
+  }
+
+  .c-clients-logo_brand_pantone {
+    right: -2px;
+  }
+
+  .c-clients-logo_brand_cratebarrel {
+    top: -3px;
+  }
+
+  .c-clients-logo_brand_thatsliving {
+    top: 23px;
+  }
+
+  .c-clients-logo__img_active {
+    width: 100%;
+    margin: 0 auto;
+    position: initial;
+  }
+
+  .c-clients-logo__img {
+    width: 100%;
+    margin: 0 auto;
+    position: initial;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .c-clients-logo_brand_hilton {
+    max-width: 65px;
+  }
+
+  .c-clients-logo_brand_istochnik {
+    max-width: 50px;
+    top: 8px;
+  }
+
+  .c-clients-logo_brand_fluke {
+    top: -5px;
+    right: 0px;
+  }
+
+  .c-clients-logo_brand_pantone {
+    top: -7px;
+    right: 0px;
+  }
+
+  .c-clients-logo_brand_thatsliving {
+    top: 14px;
+  }
+
+  .c-clients-logo_brand_doubletree {
+    max-width: 65px;
+    top: 3px;
+  }
+
+  .c-clients-logo_brand_proektoria {
+    top: 5px;
+  }
+
+  .c-clients-logo_brand_hilton-hotels {
+    max-width: 65px;
+  }
+}

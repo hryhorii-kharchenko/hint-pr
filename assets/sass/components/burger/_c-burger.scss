@@ -1,0 +1,10 @@
+.c-burger__line {
+  width: 23px;
+  height: 2px;
+  margin-bottom: 4px;
+  background-color: $white;
+}
+
+.c-burger__line:last-child {
+  margin-bottom: 0px;
+}

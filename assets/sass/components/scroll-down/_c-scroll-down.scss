@@ -1,0 +1,22 @@
+.c-scroll-down {
+  
+}
+
+
+.c-scroll-down__mouse {
+  margin: 0 auto;
+  display: block;
+}
+
+.c-scroll-down__arrow {
+  margin: 8px auto 0px; 
+  top: 0px;
+  position: relative;
+  display: block;
+
+  transition: all 0.3s;
+}
+
+.c-scroll-down:hover .c-scroll-down__arrow {
+  top: 5px;
+}

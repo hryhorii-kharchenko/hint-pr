@@ -1,0 +1,165 @@
+.c-banner {
+  width: 100%;
+  padding-bottom: 2%;
+  position: relative;
+  overflow: hidden;
+}
+
+.c-banner__bottom {
+  margin-top: 260px;
+
+  @include flex-position(center, center);
+}
+
+
+.c-banner__rotated-decoration {
+  bottom: 415px;
+  left: 30px;
+}
+
+
+
+.c-scroll-down {
+
+}
+
+.c-scroll-down__mouse {
+
+}
+
+
+
+.bg-video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  // top: 50%;
+  // left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  // max-height: 140%;
+  // max-width: 140%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  // transform: translate(-50%, -50%);
+}
+
+.bg-video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -90;
+  // background-color: rgba(0, 0, 0, 0.45);
+  background-image: url("../img/bg/banner.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 1460px)  {
+  .c-banner__bottom {
+    margin-top: 158px;
+  }
+
+  .c-banner__rotated-decoration {
+    bottom: 285px;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 1366px)  {
+  .c-banner {
+    padding-bottom: 26px;
+  }
+}
+
+@media screen and (max-width: 1320px)  {
+  .bg-video-overlay {
+    background-color: rgba(0, 0, 0, 0.45);
+    background-image: none;
+  }
+}
+
+
+// @media screen and (max-width: 1274px)  {
+//   .c-banner {
+//     padding-bottom: 31px;
+//     background-size: cover;
+//     background-position: 80%;
+//   }
+// }
+
+
+// @media screen and (max-width: 1050px) {
+//   .bg-video {
+//     transform: translate(-50%, -30%);
+//   }
+// }
+
+
+// @media screen and (max-width: 800px) {
+//   .bg-video-container {
+//     display: none;
+//   }
+    
+//   .bg-video {
+//     display: none;
+//   }
+
+//   .c-banner {
+//     background: linear-gradient(
+//       rgba(0, 0, 0, 0.4), 
+//       rgba(0, 0, 0, 0.4)
+//     ),
+//     url("../img/avatars/video-poster.jpg") no-repeat;
+//     background-size: cover;
+//     background-position: center;
+//   }
+// }
+
+@media screen and (max-width: 660px) {
+  .c-banner__bottom {
+    margin-top: 90px;
+  }
+
+  .c-banner__rotated-decoration {
+    bottom: 168px;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .c-banner__rotated-decoration {
+    bottom: -42px;
+    left: 10px;
+  }
+}
+
+
+
+// @media screen and (max-width: 468px){
+//   .c-banner {
+//     background: linear-gradient(
+//     rgba(0, 0, 0, 0.4), 
+//     rgba(0, 0, 0, 0.4)
+//     ), url("../img/avatars/video-poster.jpg") no-repeat;
+//     background-position: 50% 102%;
+//     background-size: cover;
+//   }
+// }

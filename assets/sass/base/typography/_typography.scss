@@ -1,0 +1,27 @@
+/* Text styles */
+
+h1 {
+  font-family: 'Gilroy', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 48px;
+  color: $white;
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+/* Imports */
+
+@import 'typography-form';

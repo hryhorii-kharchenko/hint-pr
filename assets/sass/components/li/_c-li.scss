@@ -1,0 +1,15 @@
+.c-li {
+  padding-left: 17px;
+  background-image: url("../img/icons/dot.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: $black;
+}
+
+.c-li_color_white {
+  color: $white;
+}

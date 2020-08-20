@@ -1,0 +1,238 @@
+.c-card {
+  width: 392px;
+  height: 392px;
+  margin: 11px 11px 0px 0px;
+  padding: 30px 50px 30px 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: transparent;
+  position: relative;
+
+  @include flex-position(flex-end, flex-start, column);
+
+  transition: box-shadow 0.3s;
+}
+
+.c-card:hover {
+  // justify-content: center;
+  box-shadow: 0 10px 17px 0 rgba(0, 0, 0, 0.49);
+}
+
+.c-card__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+  transition: opacity 0.3s;
+}
+
+.c-card:hover .c-card__bg {
+  opacity: 0;
+}
+
+.c-card__bg_active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+
+  transition: opacity 0.3s;
+}
+
+.c-card:hover .c-card__bg_active {
+  opacity: 1;
+}
+
+.c-card__bg_brand_hilton {
+  background-image: url('../img/avatars/portfolio-hilton.jpg');
+}
+
+.c-card__bg_brand_hilton_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-hilton.jpg');
+}
+
+.c-card__bg_brand_tencent {
+  background-image: url('../img/avatars/portfolio-tencent.jpg');
+}
+
+.c-card__bg_brand_tencent_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-tencent.jpg');
+}
+
+.c-card__bg_brand_total {
+  background-image: url('../img/avatars/portfolio-total.jpg');
+}
+
+.c-card__bg_brand_total_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-total.jpg');
+}
+
+.c-card__bg_brand_cratebarrel {
+  background-image: url('../img/avatars/portfolio-cratebarrel.jpg');
+}
+
+.c-card__bg_brand_cratebarrel_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-cratebarrel.jpg');
+}
+
+.c-card__bg_brand_pantone {
+  background-image: url('../img/avatars/portfolio-pantone.jpg');
+}
+
+.c-card__bg_brand_pantone_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-pantone.jpg');
+}
+
+.c-card__bg_brand_thatsliving {
+  background-image: url('../img/avatars/portfolio-thatsliving.jpg');
+}
+
+.c-card__bg_brand_thatsliving_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-thatsliving.jpg');
+}
+
+.c-card__bg_brand_institute {
+  background-image: url('../img/avatars/portfolio-institute.jpg');
+}
+
+.c-card__bg_brand_institute_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-institute.jpg');
+}
+
+.c-card__bg_brand_skylounge {
+  background-image: url('../img/avatars/portfolio-skylounge.jpg');
+}
+
+.c-card__bg_brand_skylounge_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-skylounge.jpg');
+}
+
+.c-card__bg_brand_istochnik {
+  background-image: url('../img/avatars/portfolio-istochnik.jpg');
+}
+
+.c-card__bg_brand_istochnik_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-istochnik.jpg');
+}
+
+.c-card__bg_brand_everart {
+  background-image: url('../img/avatars/portfolio-everart.jpg');
+}
+
+.c-card__bg_brand_everart_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-everart.jpg');
+}
+
+.c-card__bg_brand_union {
+  background-image: url('../img/avatars/portfolio-union.jpg');
+}
+
+.c-card__bg_brand_union_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-union.jpg');
+}
+
+.c-card__bg_brand_worldskills {
+  background-image: url('../img/avatars/portfolio-fluke.jpg');
+}
+
+.c-card__bg_brand_worldskills_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-fluke.jpg');
+}
+
+.c-card__bg_brand_studfest {
+  background-image: url('../img/avatars/portfolio-studfest.jpg');
+}
+
+.c-card__bg_brand_studfest_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-studfest.jpg');
+}
+
+.c-card__bg_brand_osram {
+  background-image: url('../img/avatars/portfolio-osram.jpg');
+}
+
+.c-card__bg_brand_osram_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-osram.jpg');
+}
+
+.c-card__bg_brand_idrf {
+  background-image: url('../img/avatars/portfolio-idrf.jpg');
+}
+
+.c-card__bg_brand_idrf_active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../img/avatars/portfolio-idrf.jpg');
+}
+
+.c-card__h3 {
+  margin: 0px 0px 10px;
+
+  font-family: 'Gilroy', sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  color: $white;
+
+  transition: all 0.3s;
+}
+
+.c-card:hover .c-card__h3 {
+  color: $main;
+}
+
+.c-card__break {
+  width: 50px;
+  height: 1px;
+  background-color: $main;
+
+  transition: all 0.3s;
+}
+
+.c-card__text-container {
+  width: 100%;
+  max-height: 0%;
+  margin-top: 9px;
+  overflow: hidden;
+
+  transition: max-height 1s;
+}
+
+.c-card:hover .c-card__text-container {
+  max-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .c-card:active .c-card__bg {
+    opacity: 0;
+  }
+
+  .c-card:active .c-card__bg_active {
+    opacity: 1;
+  }
+}

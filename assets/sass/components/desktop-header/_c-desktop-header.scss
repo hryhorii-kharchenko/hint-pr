@@ -1,0 +1,98 @@
+.c-desktop-header {
+  width: 100%;
+  padding: 25px 30px;
+  box-sizing: border-box;
+
+  @include flex-position(space-between, center);
+}
+
+.c-desktop-header__logo {
+  width: 95px;
+  height: 43px;
+  display: block;
+}
+
+.c-desktop-header__inner {
+  @include flex-position(space-between, center);
+}
+
+.c-desktop-header__separator {
+  width: 1px;
+  height: 15px;
+  margin: 0px 30px;
+  background-color: $white;
+}
+
+.c-menu {
+  position: relative;
+}
+
+.c-menu__list {
+  width: 100%;
+  margin: 0;
+
+  @include flex-position(space-between, center);
+}
+
+.c-menu__item {
+  margin-right: 30px;
+}
+
+.c-menu__item:last-child {
+  margin-right: 0px;
+}
+
+.c-menu__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  color: $white;
+  text-transform: uppercase;
+
+  transition: color 0.2s;
+}
+
+.c-menu__link:hover {
+  color: $main;
+}
+
+.c-language-switcher {
+  @include flex-position(space-between, center);
+}
+
+.c-language-switcher__item:last-child {
+  margin-left: 20px;
+}
+
+.c-language-switcher__link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  color: $white;
+  opacity: 0.7;
+  transition: color 0.2s;
+}
+
+.c-language-switcher__link:hover {
+  color: $main;
+}
+
+.c-language-switcher__link_current {
+  border-bottom: 1px solid $main;
+  color: $main;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.popup-menu-a.c-language-switcher__link_current {
+  border: 0;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1050px) {
+  .c-desktop-header {
+    display: none;
+  }
+}

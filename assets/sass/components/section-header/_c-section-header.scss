@@ -1,0 +1,27 @@
+.c-section-header {
+  
+}
+
+
+.c-section-header__h2 {
+  margin: 0px;
+
+  font-family: 'Gilroy', sans-serif;
+  font-size: 34px;
+  font-weight: 800;
+  text-align: left;
+  color: $black;
+  text-transform: uppercase;
+}
+
+
+.c-section-header__break {
+  width: 79px;
+  height: 1px;
+  margin-top: 12px;
+  background-color: $main;
+}
+
+.c-section-header__break_color_black {
+  background-color: $black;
+}

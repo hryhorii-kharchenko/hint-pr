@@ -1,0 +1,25 @@
+/* Non-text tags styling reset */
+
+* {
+  outline: none;
+}
+
+html,body
+{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+.content-wrapper {
+  overflow: hidden;
+}
+
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  box-sizing: border-box;
+}

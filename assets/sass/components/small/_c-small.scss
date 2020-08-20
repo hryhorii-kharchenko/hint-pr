@@ -1,0 +1,121 @@
+.c-small__rectangle {
+  padding: 31px 0px 40px;
+  background-color: #f9f9f9;
+  // background-image: url('../img/icons/small-bg.svg');
+  // background-position: bottom left;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+}
+
+.c-small__triangle {
+  padding: 0px 0px 160px;
+  background-image: linear-gradient(
+    to top right,
+    $white 0%,
+    $white 50%,
+    #f9f9f9 50%,
+    #f9f9f9 100%
+  );
+}
+
+.c-small__wrapper {
+  margin: 0px;
+  padding: 0px 34px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+}
+
+.c-small__big-logo-wrapper {
+  max-width: 453px;
+  width: 100%;
+  // height: 388px;
+  padding: 66px 100px 44px 44px;
+  background-image: url('../img/icons/small-border.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.c-small__big-logo-img {
+  max-width: 297px;
+  width: 100%;
+  // margin: 66px 100px 0px 44px;
+  // left: 44px;
+  // bottom: 44px;
+  // position: absolute;
+}
+
+.c-small__inner {
+  margin-left: 40px;
+}
+
+.c-small__p {
+  max-width: 572px;
+  margin: 0px;
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #120f0e;
+}
+
+.c-small__btn {
+  margin: 30px 0px 0px;
+}
+
+.c-small__small-logo-img {
+  width: 226px;
+  height: 76px;
+  right: 34px;
+  bottom: 0;
+  position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+  .c-small__p {
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .c-small__small-logo-img {
+    transform: translateY(100%);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .c-small__wrapper {
+    display: block;
+  }
+
+  .c-small__inner {
+    margin: 30px auto;
+  }
+
+  .c-small__triangle {
+    padding: 0px 0px 70px;
+  }
+
+  .c-small__big-logo-wrapper {
+    // height: 250px;
+  }
+
+  .c-small__btn {
+    margin: 20px 0px 0px;
+  }
+
+  .c-small__small-logo-img {
+    position: initial;
+    transform: initial;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .c-small__big-logo-wrapper {
+    padding: 46px 80px 24px 24px;
+  }
+}

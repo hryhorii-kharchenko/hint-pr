@@ -1,0 +1,55 @@
+.c-column-list {
+  margin: 0;
+}
+
+.c-column-list__li {
+  margin-top: 30px;
+  padding-left: 37px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 19px;
+  color: $white;
+}
+
+.c-column-list__li:first-child {
+  margin: 0;
+}
+
+.c-column-list__li_icon_pin {
+  background-image: url('../img/icons/pin.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.c-column-list__li_icon_mail {
+  background-image: url('../img/icons/mail.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.c-column-list__li_icon_facebook {
+  background-image: url('../img/icons/facebook.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.c-column-list__li_icon_insta {
+  background-image: url('../img/icons/instagram.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+
+.c-column-list__a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 19px;
+  color: $white;
+
+  transition: color 0.2s;
+}
+
+.c-column-list__a:hover {
+  color: $main;
+}

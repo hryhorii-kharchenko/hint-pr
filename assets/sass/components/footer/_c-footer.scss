@@ -1,0 +1,40 @@
+.c-footer {
+  padding: 20px 0px 25px;
+  border-top: 1px solid #404040;
+  background-color: $black;
+}
+
+
+.c-footer__inner {
+  @include flex-position(space-between, center);
+}
+
+.c-footer__copyright {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  color: $grey;
+}
+
+.c-footer__creator {
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .c-footer__inner {
+    display: block;
+  }
+
+
+  .c-footer__copyright {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .c-footer__creator {
+    margin: 0 auto;
+    text-align: center;
+  }
+}

@@ -1,0 +1,54 @@
+.c-services {
+  padding: 108px 0px 17px;
+}
+
+
+.c-services__inner {
+  margin-top: 40px;
+
+  @include flex-position(space-between, flex-start);
+}
+
+.c-services__column {
+  max-width: 300px;
+}
+
+.c-services__separator {
+  width: 1px;
+  height: 200px;
+  margin-top: 4px;
+  background-color: $light-grey;
+}
+
+
+.c-services__h3 {
+  margin: 0px 0px 10px;
+
+  font-family: 'Gilroy', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: $main;
+  text-transform: uppercase;
+}
+
+.c-services__ul {
+  margin: 0;
+}
+
+.c-services__li {
+  
+}
+
+
+
+@media screen and (max-width: 768px)  {
+  .c-services__inner {
+    display: block;
+  }
+
+  .c-services__separator {
+    width: 200px;
+    height: 1px;
+    margin: 20px 0px;
+  }
+}

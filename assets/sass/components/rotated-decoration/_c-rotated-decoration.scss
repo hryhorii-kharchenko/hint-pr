@@ -1,0 +1,58 @@
+.c-rotated-decoration {
+  width: 19px;
+  position: absolute;
+  overflow: visible;
+}
+
+
+.c-rotated-decoration__inner {
+  position: relative;
+  transform: rotate(-90deg);
+
+  @include flex-position(flex-end, center);
+}
+
+.c-rotated-decoration__inner_width_250 {
+  width: 250px;
+  left: -115px;
+}
+
+.c-rotated-decoration__inner_width_300 {
+  width: 300px;
+  left: -140px;
+}
+
+
+.c-rotated-decoration__line {
+  width: 178px;
+  height: 1px;
+  margin-right: 5px;
+  background-color: $main;
+}
+
+.c-rotated-decoration__text {
+  margin: 0;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  line-height: 19px;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.c-rotated-decoration__text_color_white {
+  color: $white;
+}
+
+
+
+@media screen and (max-width: 660px) {
+  .c-rotated-decoration__line {
+    width: 110px;
+  }
+  
+  .c-rotated-decoration__text {
+    font-size: 8px;
+  }
+}

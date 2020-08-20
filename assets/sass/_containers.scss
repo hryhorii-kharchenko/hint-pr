@@ -1,0 +1,35 @@
+/* Containers */
+
+.container-1200 {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0px 20px;
+}
+
+.container-1056 {
+  max-width: 1056px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0px 20px;
+}
+
+.container-880 {
+  max-width: 880px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0px 20px;
+}
+
+
+.container-1200 .container-1056 {
+  padding: 0px;
+}
+
+.container-1200 .container-880 {
+  padding: 0px;
+}
+
+.container-1056 .container-880 {
+  padding: 0px;
+}

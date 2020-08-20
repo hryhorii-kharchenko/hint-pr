@@ -1,0 +1,161 @@
+.button__kygo.button__kygo--dark, .button__kygo.button__kygo--darkghost {
+  color: #000;
+}
+
+.button__kygo, a.button__kygo {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  padding: 0px 0px 0px 25px;
+  width: 236px;
+  height: 44px;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #fff;
+  line-height: 1;
+  border: none;
+  box-sizing: border-box;
+}
+
+a.button__kygo.button__kygo_lang_en {
+  width: 174px;
+}
+
+a.button__kygo.button__kygo_lang_ru {
+  width: 236px;
+}
+
+
+.button__kygo .button__kygo__text {
+  display: inline-block;
+  float: left;
+  z-index: 99;
+  font-family: 'Gilroy', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 44px;
+  color: $white;
+}
+
+
+
+.button__kygo--lines {
+  position: absolute;
+  float: right;
+  top: 50%;
+  right: 10px;
+  width: 40px;
+  height: 2px;
+  margin-top: -1px;
+}
+
+.button__kygo__lines--line1 {
+  width: 23px;
+}
+
+.button__kygo__lines--line2 {
+  width: 5px;
+  margin-left: 2px;
+}
+
+.button__kygo:hover .button__kygo__lines--line2 {
+  -webkit-transform: translateX(-2px);
+  transform: translateX(-2px);
+}
+
+.button__kygo:hover .button__kygo__lines--line3 {
+  -webkit-transform: translateX(-4px);
+  transform: translateX(-4px);
+}
+
+.button__kygo__lines--line3 {
+  width: 2px;
+  margin-left: 1px;
+}
+
+
+.button__kygo__lines--line1, .button__kygo__lines--line2, .button__kygo__lines--line3 {
+  height: 100%;
+  float: left;
+  background: $main;
+  -webkit-transition: -webkit-transform 150ms ease-out;
+  transition: -webkit-transform 150ms ease-out;
+  transition: transform 150ms ease-out;
+  transition: transform 150ms ease-out, -webkit-transform 150ms ease-out;
+}
+
+
+
+.button__kygo__stroke {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+
+  transition: background-color 0.2s;
+}
+
+.button__kygo__stroke:hover {
+  // background-color: rgba($color: $main, $alpha: 0.1);
+  
+}
+
+
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+
+
+.button__kygo.button__kygo--dark .button__kygo__recttop, .button__kygo.button__kygo--dark .button__kygo__rectbottom, .button__kygo.button__kygo--darkghost .button__kygo__recttop, .button__kygo.button__kygo--darkghost .button__kygo__rectbottom {
+  stroke: $main;
+}
+
+.button__kygo__recttop, .button__kygo__rectbottom {
+  position: absolute;
+  fill: none;
+  stroke: $main;
+  stroke-width: 1px;
+  transition: all 550ms ease-out;
+}
+
+.button__kygo__rectbottom {
+  stroke: rgba(188, 188, 188, 0.24) !important;
+}
+
+
+.button__kygo__recttop {
+  stroke: $main;
+  stroke-width: 4px;
+  stroke-dasharray: 91 172;
+  stroke-dashoffset: -82;
+}
+
+.button__kygo_lang_en .button__kygo__recttop {
+  stroke-dasharray: 91 172;
+  stroke-dashoffset: -82;
+}
+
+.button__kygo_lang_ru .button__kygo__recttop {
+  stroke-dasharray: 103 223;
+  stroke-dashoffset: -133;
+}
+
+.button__kygo:hover .button__kygo__recttop {
+  stroke-dasharray: 110 120;
+  stroke-dashoffset: -175;
+}
+
+.button__kygo_lang_en:hover .button__kygo__recttop {
+  stroke-dasharray: 110 120;
+  stroke-dashoffset: -175;
+}
+
+.button__kygo_lang_ru:hover .button__kygo__recttop {
+  stroke-dasharray: 90 188;
+  stroke-dashoffset: 43;
+}

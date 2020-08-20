@@ -1,0 +1,25 @@
+.c-contact-form {
+  position: relative;
+
+  @include flex-position(flex-start, flex-end);
+}
+
+
+.c-contact-form__email {
+
+}
+
+.c-contact-form__button {
+  width: 17px;
+  height: 16px;
+  padding: 0px 0px 11px 5px;
+  // top: 15px;
+  // right: 1px;
+  // position: absolute;
+  border: 0;
+  border-bottom: 1px solid #404040;
+  cursor: pointer;
+  background: url("../img/icons/send.svg") no-repeat scroll top right transparent;
+  // z-index: 100;
+  box-sizing: content-box;
+}

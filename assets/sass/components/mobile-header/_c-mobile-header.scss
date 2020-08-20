@@ -1,0 +1,36 @@
+.c-mobile-header {
+  width: 100%;
+  padding: 11px 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 150;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  @include flex-position(space-between, center);
+}
+
+// .c-mobile-header.past-banner {
+//   background: rgba(0, 0, 0, 0.3);
+// }
+
+.c-mobile-header__logo {
+  width: 95px;
+  height: 43px;
+}
+
+.c-mobile-header__cross-img {
+  display: none;
+}
+
+.c-logo__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .c-mobile-header {
+    visibility: initial;
+  }
+}

@@ -1,0 +1,20 @@
+.l-grid-row {
+  width: auto;
+  height: 100%;
+}
+
+.l-grid-row_position_between {
+  @include flex-position(space-between, center);
+}
+
+.l-grid-row_position_start {
+  @include flex-position(flex-start, flex-start);
+}
+
+.l-grid-row_position_center {
+  @include flex-position(center, center);
+}
+
+.l-grid-row_wrap {
+  flex-wrap: wrap;
+}

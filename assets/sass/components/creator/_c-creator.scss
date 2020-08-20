@@ -1,0 +1,23 @@
+.c-creator {
+
+}
+
+
+.c-creator__span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  color: $grey;
+}
+
+.c-creator__a {
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  color: $white;
+}
+
+.c-creator__a:hover {
+  color: $main;
+}

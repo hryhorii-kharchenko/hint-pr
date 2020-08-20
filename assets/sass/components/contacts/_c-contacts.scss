@@ -1,0 +1,83 @@
+.c-contacts {
+  padding: 55px 0px;
+  background-color: $black;
+}
+
+
+.c-contacts__grid {
+
+}
+
+
+.c-contacts__hire-us {
+  max-width: 570px;
+  width: 100%;
+}
+
+.c-contacts__contacts {
+  max-width: 391px;
+  width: 100%;
+}
+
+.c-contacts__follow-us{
+  max-width: 237px;
+  width: 100%;
+}
+
+
+.c-contacts__contact-form {
+  width: 80%;
+  max-width: 400px;
+}
+
+
+
+@media screen and (max-width: 768px)  {
+  .c-contacts__grid.l-grid-row {
+    display: block;
+  }
+
+
+  .c-contacts__hire-us {
+    max-width: 570px;
+    width: 100%;
+    margin: 0px 0px 0px 50px;
+  }
+  
+  .c-contacts__contacts {
+    max-width: 391px;
+    width: 100%;
+    margin: 50px 0px 0px 50px;
+  }
+  
+  .c-contacts__follow-us{
+    max-width: 237px;
+    width: 100%;
+    margin: 50px 0px 0px 50px;
+  }
+}
+
+@media screen and (max-width: 768px)  {
+  .c-contacts__grid.l-grid-row {
+    display: block;
+  }
+
+
+  .c-contacts__hire-us {
+    max-width: 570px;
+    width: 100%;
+    margin: 0px 0px 0px 20px;
+  }
+  
+  .c-contacts__contacts {
+    max-width: 391px;
+    width: 100%;
+    margin: 50px 0px 0px 20px;
+  }
+  
+  .c-contacts__follow-us{
+    max-width: 300px;
+    width: 100%;
+    margin: 50px 0px 0px 20px;
+  }
+}
